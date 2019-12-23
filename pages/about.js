@@ -1,13 +1,12 @@
 import React from "react";
-import Nav from "../components/nav";
+import Layout from "../components/Layout";
 
 const About = () => {
   return (
-    <div>
-      <Nav />
+    <Layout>
       <h1>About BitzPrice</h1>
       <p>Application to view Bitcoin prices</p>
-    </div>
+    </Layout>
   );
 };
 

@@ -1,12 +1,17 @@
 import React from "react";
-import Nav from "../components/nav";
+import Layout from "../components/Layout";
 
 const Home = () => {
   return (
-    <div>
-      <Nav />
+    <Layout>
       <h1>Welcome to BitzPrice</h1>
-    </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ea quia,
+        dolores molestias doloribus nam accusamus pariatur neque ut quis
+        exercitationem, velit officiis qui error consequuntur. Sapiente rerum
+        consequatur facilis?
+      </p>
+    </Layout>
   );
 };
 
