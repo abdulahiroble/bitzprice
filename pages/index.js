@@ -9,6 +9,7 @@ const Home = props => {
     <Layout>
       <h1>Welcome to BitzPrice</h1>
       {/* <div>{props.bpi.bpi.USD.rate}</div> */}
+      <p>Check current Bitcoin rate</p>
       <Prices bpi={props.bpi} />
     </Layout>
   );
