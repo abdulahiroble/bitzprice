@@ -5,12 +5,40 @@ const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link href="/">Home</Link>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="#">
+          <a>Contact</a>
+        </Link>
       </li>
     </ul>
+
+    <style jsx>{`
+      ul {
+        background: #333;
+        color: #fff;
+        list-style: none;
+        display: flex;
+      }
+
+      ul li {
+        font-size: 18px;
+        margin-right: 20px;
+      }
+
+      ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    `}</style>
   </nav>
 );
 
